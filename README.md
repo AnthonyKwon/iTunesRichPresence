@@ -29,5 +29,14 @@
 
 ## 역자 덧붙임
 
-이 프로그램의 원 개발자는 nit8835님이며, 원래 개인적으로 쓰려 했던걸 올렸습니다. 요청에 따라 내려갈 수도 있습니다.
+이 프로그램의 원 개발자는 nit8835님이며, 원래 개인적으로 쓰려 했던걸 올렸습니다.
+
+*This is a fork of nit8835's original one, and this was made for personal use originally.*
+
+이 프로그램은 MIT 라이센스이긴 하나, 원작자의 요청에 따라 내려갈 수도 있습니다.
+
+*Though this program uses MIT license, project could be removed by the request of original developer.*
+
 저는 번역가가 아니다보니, 번역상 오류가 있을수도 있습니다. 오타나 번역 오류가 있을경우 얼마든지 알려주세요! :)
+
+*As I'm not a translator, There could be error somewhere. So If you find one, feel free to ask me :)*
