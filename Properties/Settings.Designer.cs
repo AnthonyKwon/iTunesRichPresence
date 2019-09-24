@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace iTunesRichPresence_Rewrite.Properties {
+namespace iTunesRichPresence_Clone.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -73,7 +73,7 @@ namespace iTunesRichPresence_Rewrite.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Paused")]
+        [global::System.Configuration.DefaultSettingValueAttribute("일시정지 됨")]
         public string PausedBottomLine {
             get {
                 return ((string)(this["PausedBottomLine"]));
@@ -152,6 +152,80 @@ namespace iTunesRichPresence_Rewrite.Properties {
             }
             set {
                 this["MinimizeOnStartup"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>Red</string>
+  <string>Green</string>
+  <string>Blue</string>
+  <string>Purple</string>
+  <string>Orange</string>
+  <string>Lime</string>
+  <string>Emerald</string>
+  <string>Teal</string>
+  <string>Cyan</string>
+  <string>Cobalt</string>
+  <string>Indigo</string>
+  <string>Violet</string>
+  <string>Pink</string>
+  <string>Magenta</string>
+  <string>Crimson</string>
+  <string>Amber</string>
+  <string>Yellow</string>
+  <string>Brown</string>
+  <string>Olive</string>
+  <string>Steel</string>
+  <string>Mauve</string>
+  <string>Taupe</string>
+  <string>Sienna</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection AccentsEn {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["AccentsEn"]));
+            }
+            set {
+                this["AccentsEn"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>빨간색</string>
+  <string>초록색</string>
+  <string>파란색</string>
+  <string>보라색</string>
+  <string>주황색</string>
+  <string>라임색</string>
+  <string>에메랄드</string>
+  <string>청록색</string>
+  <string>시안</string>
+  <string>코발트</string>
+  <string>남색</string>
+  <string>자주색</string>
+  <string>분홍색</string>
+  <string>자홍색</string>
+  <string>심홍색</string>
+  <string>등색</string>
+  <string>노란색</string>
+  <string>갈색</string>
+  <string>갈록색</string>
+  <string>Steel</string>
+  <string>모브색</string>
+  <string>회갈색</string>
+  <string>시에나</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection AccentsKr {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["AccentsKr"]));
+            }
+            set {
+                this["AccentsKr"] = value;
             }
         }
     }

@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="iTunesRichPresence_Rewrite.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="iTunesRichPresence_Clone.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="RunOnStartup" Type="System.Boolean" Scope="User">
@@ -15,7 +15,7 @@
       <Value Profile="(Default)">%artist - %track</Value>
     </Setting>
     <Setting Name="PausedBottomLine" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Paused</Value>
+      <Value Profile="(Default)">일시정지 됨</Value>
     </Setting>
     <Setting Name="DisplayPlaybackDuration" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
@@ -34,6 +34,62 @@
     </Setting>
     <Setting Name="MinimizeOnStartup" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AccentsEn" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Red&lt;/string&gt;
+  &lt;string&gt;Green&lt;/string&gt;
+  &lt;string&gt;Blue&lt;/string&gt;
+  &lt;string&gt;Purple&lt;/string&gt;
+  &lt;string&gt;Orange&lt;/string&gt;
+  &lt;string&gt;Lime&lt;/string&gt;
+  &lt;string&gt;Emerald&lt;/string&gt;
+  &lt;string&gt;Teal&lt;/string&gt;
+  &lt;string&gt;Cyan&lt;/string&gt;
+  &lt;string&gt;Cobalt&lt;/string&gt;
+  &lt;string&gt;Indigo&lt;/string&gt;
+  &lt;string&gt;Violet&lt;/string&gt;
+  &lt;string&gt;Pink&lt;/string&gt;
+  &lt;string&gt;Magenta&lt;/string&gt;
+  &lt;string&gt;Crimson&lt;/string&gt;
+  &lt;string&gt;Amber&lt;/string&gt;
+  &lt;string&gt;Yellow&lt;/string&gt;
+  &lt;string&gt;Brown&lt;/string&gt;
+  &lt;string&gt;Olive&lt;/string&gt;
+  &lt;string&gt;Steel&lt;/string&gt;
+  &lt;string&gt;Mauve&lt;/string&gt;
+  &lt;string&gt;Taupe&lt;/string&gt;
+  &lt;string&gt;Sienna&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AccentsKr" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;빨간색&lt;/string&gt;
+  &lt;string&gt;초록색&lt;/string&gt;
+  &lt;string&gt;파란색&lt;/string&gt;
+  &lt;string&gt;보라색&lt;/string&gt;
+  &lt;string&gt;주황색&lt;/string&gt;
+  &lt;string&gt;라임색&lt;/string&gt;
+  &lt;string&gt;에메랄드&lt;/string&gt;
+  &lt;string&gt;청록색&lt;/string&gt;
+  &lt;string&gt;시안&lt;/string&gt;
+  &lt;string&gt;코발트&lt;/string&gt;
+  &lt;string&gt;남색&lt;/string&gt;
+  &lt;string&gt;자주색&lt;/string&gt;
+  &lt;string&gt;분홍색&lt;/string&gt;
+  &lt;string&gt;자홍색&lt;/string&gt;
+  &lt;string&gt;심홍색&lt;/string&gt;
+  &lt;string&gt;등색&lt;/string&gt;
+  &lt;string&gt;노란색&lt;/string&gt;
+  &lt;string&gt;갈색&lt;/string&gt;
+  &lt;string&gt;갈록색&lt;/string&gt;
+  &lt;string&gt;Steel&lt;/string&gt;
+  &lt;string&gt;모브색&lt;/string&gt;
+  &lt;string&gt;회갈색&lt;/string&gt;
+  &lt;string&gt;시에나&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
     </Setting>
   </Settings>
 </SettingsFile>

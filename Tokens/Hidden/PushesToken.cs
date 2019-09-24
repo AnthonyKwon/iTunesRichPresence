@@ -1,6 +1,6 @@
 ﻿using iTunesLib;
 
-namespace iTunesRichPresence_Rewrite.Tokens.Hidden {
+namespace iTunesRichPresence_Clone.Tokens.Hidden {
     public class PushesToken : IToken {
         public string DisplayName => "Pushes";
         public string Token => "%pushes";

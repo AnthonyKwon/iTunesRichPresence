@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace iTunesRichPresence_Rewrite {
+namespace iTunesRichPresence_Clone
+{
     // License for this class can be found in LICENSE_DiscordRpc
     public class DiscordRpc
     {
@@ -162,7 +163,7 @@ namespace iTunesRichPresence_Rewrite {
                 var buffer = Marshal.AllocHGlobal(convbytecnt + 1);
                 for (int i = 0; i < convbytecnt + 1; i++)
                 {
-                    Marshal.WriteByte(buffer, i , 0);
+                    Marshal.WriteByte(buffer, i, 0);
                 }
                 _buffers.Add(buffer);
                 Marshal.Copy(Encoding.UTF8.GetBytes(input), 0, buffer, convbytecnt);

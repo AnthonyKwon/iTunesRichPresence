@@ -1,7 +1,7 @@
 ﻿using System;
 using iTunesLib;
 
-namespace iTunesRichPresence_Rewrite.Tokens.Hidden {
+namespace iTunesRichPresence_Clone.Tokens.Hidden {
     public class LastPushToken : IToken {
         public string DisplayName => "Last push";
         public string Token => "%last_push";

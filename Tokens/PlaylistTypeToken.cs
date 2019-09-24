@@ -1,8 +1,8 @@
 ﻿using iTunesLib;
 
-namespace iTunesRichPresence_Rewrite.Tokens {
+namespace iTunesRichPresence_Clone.Tokens {
     public class PlaylistTypeToken : IToken {
-        public string DisplayName => "Playlist type";
+        public string DisplayName => "플레이리스트 종류";
         public string Token => "%playlist_type";
         public bool ShowInToolbox => true;
         public string GetText(IiTunes iTunes) {

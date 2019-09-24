@@ -1,10 +1,12 @@
 ﻿using iTunesLib;
 
-namespace iTunesRichPresence_Rewrite.Tokens {
+namespace iTunesRichPresence_Clone.Tokens
+{
     /// <summary>
     /// Interface that represents a formatting token.
     /// </summary>
-    public interface IToken {
+    public interface IToken
+    {
         /// <summary>
         /// The display name for the token. Used for the token toolbox.
         /// </summary>

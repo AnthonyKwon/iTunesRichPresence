@@ -1,8 +1,7 @@
-﻿<Application x:Class="iTunesRichPresence_Rewrite.App"
+﻿<Application x:Class="iTunesRichPresence_Clone.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:iTunesRichPresence_Rewrite"
-             DispatcherUnhandledException="CurrentOnDispatcherUnhandledException"
+             xmlns:local="clr-namespace:iTunesRichPresence_Clone"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
